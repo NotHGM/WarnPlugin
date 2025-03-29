@@ -47,7 +47,7 @@ Copy `WarnPlugin.dll` into your `IW4MAdmin/Plugins/` directory and restart IW4MA
 ## 🧪 Example Output on Startup
 
 ```
-[WarnPlugin] loaded by HGM. Version: 2025-03-29
+[WarnPlugin] by HGM loaded. Version: 2025-03-29
 ```
 
 ---
