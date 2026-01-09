@@ -1,4 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 using SharedLibraryCore;
 using SharedLibraryCore.Events.Management;
 using SharedLibraryCore.Helpers;
@@ -17,7 +17,7 @@ namespace Warn
     {
         public const string PluginName = "WarnPlugin";
         public string Name => PluginName;
-        public string Version => "2025-03-29";
+        public string Version => "2025-12-30";
         public string Author => "HGM";
 
         private readonly IInteractionRegistration _interactionRegistration;
@@ -77,7 +77,7 @@ namespace Warn
                 {
                     EntityId = targetClientId.Value,
                     Name = "Warn",
-                    DisplayMeta = "oi-warning",
+                    DisplayMeta = "ph-warning-circle",
                     ActionPath = "DynamicAction",
                     ActionMeta = new Dictionary<string, string>
                     {

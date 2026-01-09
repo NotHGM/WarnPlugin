@@ -1,11 +1,10 @@
-
 # WarnPlugin
 
-🔧 **WarnPlugin** is a plugin for [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin) that adds a "Warn" button to player profiles on the webfront. This plugin was originally created for **HGMServers**, but is open-source and available for anyone to use or modify. It allows server staff to issue in-game warnings using the `!warn` command, with support for both custom and preset reasons.
+**WarnPlugin** is a plugin for [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin) that adds a "Warn" button to player profiles on the webfront. This plugin was originally created for **HGMServers**, but is open-source and available for anyone to use or modify.  It allows server staff to issue in-game warnings using the `!warn` command, with support for both custom and preset reasons.
 
 ---
 
-## ✨ Features
+## Features
 
 - Adds a **"Warn"** button to the webfront player context menu
 - Supports **preset and custom reasons**
@@ -14,7 +13,13 @@
 
 ---
 
-## 🧱 Requirements
+## Requirements
+
+- IW4MAdmin version **2025.12.30.2** or newer
+
+---
+
+## Build Requirements
 
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [IW4MAdmin](https://github.com/RaidMax/IW4M-Admin)
@@ -22,7 +27,7 @@
 
 ---
 
-## 🛠️ Build Instructions
+## Build Instructions
 
 ```bash
 # Clone the repo
@@ -34,27 +39,27 @@ dotnet restore
 dotnet build -c Release
 ```
 
-After building, the compiled plugin will be located at:
+After building, the compiled plugin will be located at: 
 
 ```
 bin/Release/net8.0/WarnPlugin.dll
 ```
 
-Copy `WarnPlugin.dll` into your `IW4MAdmin/Plugins/` directory and restart IW4MAdmin.
+Copy `WarnPlugin.dll` into your `IW4MAdmin/Plugins/` directory and restart IW4MAdmin. 
 
 ---
 
-## 🧪 Example Output on Startup
+## Example Output on Startup
 
 ```
-[WarnPlugin] by HGM loaded. Version: 2025-03-29
+[WarnPlugin] by HGM loaded. Version: 2025-12-30
 ```
 
 ---
 
-## 🙌 Credits
+## Credits
 
-Special thanks to:
+Special thanks to: 
 
-- [RaidMax](https://github.com/RaidMax) for creating IW4MAdmin 🛠️
-- [Amos](https://github.com/ayymoss) for the inspiration 💡
+- [RaidMax](https://github.com/RaidMax) for creating IW4MAdmin
+- [Amos](https://github.com/ayymoss) for the inspiration
